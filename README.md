@@ -6,13 +6,13 @@ The datasets are generated using random values. Mosly using Python [Faker](https
 
 ## Customers CSV Sample
 
-- [customers-100.csv](files/customers/customers-100.csv) - [Zip version](files/customers/customers-100.zip) - Customers CSV with 100 records
-- [customers-1000.csv](files/customers/customers-1000.csv) - [Zip version](files/customers/customers-1000.zip) - Customers CSV with 1000 records
-- [customers-10000.csv](files/customers/customers-10000.csv) - [Zip version](files/customers/customers-10000.zip) - Customers CSV with 10000 records
-- [customers-100000.csv](files/customers/customers-100000.csv) - [Zip version](files/customers/customers-100000.zip) - Customers CSV with 100000 records
-- [customers-500000.csv](files/customers/customers-500000.csv) - [Zip version](files/customers/customers-500000.zip) - Customers CSV with 500000 records
-- [customers-1000000.csv](files/customers/customers-1000000.csv) - [Zip version](files/customers/customers-1000000.zip) - Customers CSV with 1000000 records
-- [customers-2000000.csv](files/customers/customers-2000000.csv) - [Zip version](files/customers/customers-2000000.zip) - Customers CSV with 2000000 records
+- [customers-100.csv](https://github.com/datablist/sample-csv-files/raw/main/files/customers/customers-100.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/customers/customers-100.zip) - Customers CSV with 100 records
+- [customers-1000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/customers/customers-1000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/customers/customers-1000.zip) - Customers CSV with 1000 records
+- [customers-10000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/customers/customers-10000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/customers/customers-10000.zip) - Customers CSV with 10000 records
+- [customers-100000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/customers/customers-100000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/customers/customers-100000.zip) - Customers CSV with 100000 records
+- [customers-500000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/customers/customers-500000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/customers/customers-500000.zip) - Customers CSV with 500000 records
+- [customers-1000000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/customers/customers-1000000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/customers/customers-1000000.zip) - Customers CSV with 1000000 records
+- [customers-2000000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/customers/customers-2000000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/customers/customers-2000000.zip) - Customers CSV with 2000000 records
 
 
 
@@ -35,13 +35,13 @@ The datasets are generated using random values. Mosly using Python [Faker](https
 
 ## People CSV Samples
 
-- [people-100.csv](files/people/people-100.csv) - [Zip version](files/people/people-100.zip) - People CSV with 100 records
-- [people-1000.csv](files/people/people-1000.csv) - [Zip version](files/people/people-1000.zip) - People CSV with 1000 records
-- [people-10000.csv](files/people/people-10000.csv) - [Zip version](files/people/people-10000.zip) - People CSV with 10000 records
-- [people-100000.csv](files/people/people-100000.csv) - [Zip version](files/people/people-100000.zip) - People CSV with 100000 records
-- [people-500000.csv](files/people/people-500000.csv) - [Zip version](files/people/people-500000.zip) - People CSV with 500000 records
-- [people-1000000.csv](files/people/people-1000000.csv) - [Zip version](files/people/people-1000000.zip) - People CSV with 1000000 records
-- [people-2000000.csv](files/people/people-2000000.csv) - [Zip version](files/people/people-2000000.zip) - People CSV with 2000000 records
+- [people-100.csv](https://github.com/datablist/sample-csv-files/raw/main/files/people/people-100.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/people/people-100.zip) - People CSV with 100 records
+- [people-1000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/people/people-1000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/people/people-1000.zip) - People CSV with 1000 records
+- [people-10000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/people/people-10000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/people/people-10000.zip) - People CSV with 10000 records
+- [people-100000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/people/people-100000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/people/people-100000.zip) - People CSV with 100000 records
+- [people-500000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/people/people-500000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/people/people-500000.zip) - People CSV with 500000 records
+- [people-1000000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/people/people-1000000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/people/people-1000000.zip) - People CSV with 1000000 records
+- [people-2000000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/people/people-2000000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/people/people-2000000.zip) - People CSV with 2000000 records
 
 
 ### People Schema
@@ -60,13 +60,13 @@ The datasets are generated using random values. Mosly using Python [Faker](https
 
 ## Organizations CSV Samples
 
-- [organizations-100.csv](files/organizations/organizations-100.csv) - [Zip version](files/organizations/organizations-100.zip) - Organizations CSV with 100 records
-- [organizations-1000.csv](files/organizations/organizations-1000.csv) - [Zip version](files/organizations/organizations-1000.zip) - Organizations CSV with 1000 records
-- [organizations-10000.csv](files/organizations/organizations-10000.csv) - [Zip version](files/organizations/organizations-10000.zip) - Organizations CSV with 10000 records
-- [organizations-100000.csv](files/organizations/organizations-100000.csv) - [Zip version](files/organizations/organizations-100000.zip) - Organizations CSV with 100000 records
-- [organizations-500000.csv](files/organizations/organizations-500000.csv) - [Zip version](files/organizations/organizations-500000.zip) - Organizations CSV with 500000 records
-- [organizations-1000000.csv](files/organizations/organizations-1000000.csv) - [Zip version](files/organizations/organizations-1000000.zip) - Organizations CSV with 1000000 records
-- [organizations-2000000.csv](files/organizations/organizations-2000000.csv) - [Zip version](files/organizations/organizations-2000000.zip) - Organizations CSV with 2000000 records
+- [organizations-100.csv](https://github.com/datablist/sample-csv-files/raw/main/files/organizations/organizations-100.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/organizations/organizations-100.zip) - Organizations CSV with 100 records
+- [organizations-1000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/organizations/organizations-1000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/organizations/organizations-1000.zip) - Organizations CSV with 1000 records
+- [organizations-10000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/organizations/organizations-10000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/organizations/organizations-10000.zip) - Organizations CSV with 10000 records
+- [organizations-100000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/organizations/organizations-100000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/organizations/organizations-100000.zip) - Organizations CSV with 100000 records
+- [organizations-500000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/organizations/organizations-500000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/organizations/organizations-500000.zip) - Organizations CSV with 500000 records
+- [organizations-1000000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/organizations/organizations-1000000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/organizations/organizations-1000000.zip) - Organizations CSV with 1000000 records
+- [organizations-2000000.csv](https://github.com/datablist/sample-csv-files/raw/main/files/organizations/organizations-2000000.csv) - [Zip version](https://github.com/datablist/sample-csv-files/raw/main/files/organizations/organizations-2000000.zip) - Organizations CSV with 2000000 records
 
 ### Organization Schema
 
