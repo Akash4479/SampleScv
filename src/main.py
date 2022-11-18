@@ -3,12 +3,22 @@ from pathlib import Path
 from zipfile import ZipFile, ZIP_BZIP2
 
 from generators import TYPES_TO_GENERATORS
-from schemas import CUSTOMERS_SCHEMA, PEOPLE_SCHEMA, ORGANIZATIONS_SCHEMA
+from schemas import (
+    CUSTOMERS_SCHEMA,
+    PEOPLE_SCHEMA,
+    ORGANIZATIONS_SCHEMA,
+    PRODUCTS_SCHEMA,
+    OFFERS_SCHEMA,
+    LEADS_SCHEMA
+)
 
 SCHEMA_TO_DICT = {
     'customers': CUSTOMERS_SCHEMA,
+    'leads': LEADS_SCHEMA,
     'people': PEOPLE_SCHEMA,
-    'organizations': ORGANIZATIONS_SCHEMA
+    'organizations': ORGANIZATIONS_SCHEMA,
+    'products': PRODUCTS_SCHEMA,
+    'offers': OFFERS_SCHEMA
 }
 
 
@@ -69,6 +79,11 @@ if __name__ == '__main__':
     generate_file('customers', 'customers-1000000', 1000000)
     generate_file('customers', 'customers-2000000', 2000000)
 
+    generate_file('leads', 'leads-100', 100)
+    generate_file('leads', 'leads-1000', 1000)
+    generate_file('leads', 'leads-10000', 10000)
+    generate_file('leads', 'leads-100000', 100000)
+
     generate_file('people', 'people-100', 100)
     generate_file('people', 'people-1000', 1000)
     generate_file('people', 'people-10000', 10000)
@@ -84,3 +99,6 @@ if __name__ == '__main__':
     generate_file('organizations', 'organizations-500000', 500000)
     generate_file('organizations', 'organizations-1000000', 1000000)
     generate_file('organizations', 'organizations-2000000', 2000000)
+
+    generate_file('products', 'products-5000', 5000)
+    generate_file('offers', 'offers-5000', 5000)
