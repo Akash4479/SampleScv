@@ -9,6 +9,12 @@ def random_string(len=15):
     return "".join(lst)
 
 def number():
+    return random.randrange(-1000, 1000)
+
+def small_positive_integer():
+    return random.randrange(1, 100)
+
+def positive_integer():
     return random.randrange(1, 1000)
 
 def number_employees():
@@ -16,6 +22,12 @@ def number_employees():
 
 def long_text():
     return fake.paragraph(nb_sentences=1)
+
+def product_name():
+    return fake.text(max_nb_chars=30)
+
+def full_name():
+    return "{} {}".format(fake.first_name(), fake.last_name())
 
 def sex():
     return random.choice(['Male', 'Female'])
@@ -198,6 +210,7 @@ TYPES_TO_GENERATORS = {
     'id': random_string,
     'first_name': fake.first_name,
     'last_name': fake.last_name,
+    'full_name': full_name, # fake.name,
     'company': fake.company,
     'industry': industry,
     'business_department': department,
@@ -206,12 +219,16 @@ TYPES_TO_GENERATORS = {
     'city': fake.city,
     'country': fake.country,
     'sex': sex,
+    'ean': fake.ean,
     'url': fake.url,
     'email': fake.email,
     'business_email': fake.company_email,
     'website': fake.url,
     'job': fake.job,
     'number': number,
+    'small_positive_integer': small_positive_integer,
+    'positive_integer': positive_integer,
+    'product_name': product_name,
     'date': fake.date,
     'year': fake.year,
     'datetime': fake.date_time,

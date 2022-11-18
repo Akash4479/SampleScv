@@ -35,6 +35,38 @@ CUSTOMERS_SCHEMA = [{
     "type": "website"
 }]
 
+LEADS_SCHEMA =[{
+    "name": "Account Id",
+    "type": 'id'
+}, {
+    "name": "Lead Owner",
+    "type": 'full_name'
+}, {
+    "name": "First Name",
+    "type": 'first_name'
+}, {
+    "name": "Last Name",
+    "type": "last_name"
+}, {
+    "name": "Company",
+    "type": "company"
+}, {
+    "name": "Phone 1",
+    "type": "phone"
+}, {
+    "name": "Phone 2",
+    "type": "phone"
+}, {
+    "name": "Email",
+    "type": "business_email"
+}, {
+    "name": "Website",
+    "type": "website"
+}, {
+    "name": "Notes",
+    "type": "long_text"
+}]
+
 PEOPLE_SCHEMA = [{
     "name": "User Id",
     "type": 'id'
@@ -85,4 +117,30 @@ ORGANIZATIONS_SCHEMA = [{
 }, {
     "name": "Number of employees",
     "type": "company_number_employees"
+}]
+
+
+PRODUCTS_SCHEMA = [{
+    "name": "Name",
+    "type": "product_name"
+}, {
+    "name": "EAN",
+    "type": "ean"
+}, {
+    "name": "Internal ID",
+    "type": "small_positive_integer"
+}]
+
+OFFERS_SCHEMA = [{
+    "name": "EAN",
+    "type": "ean"
+}, {
+    "name": "Internal ID",
+    "type": "small_positive_integer"
+}, {
+    "name": "Stock",
+    "type": "positive_integer"
+}, {
+    "name": "Price",
+    "type": "positive_integer"
 }]
